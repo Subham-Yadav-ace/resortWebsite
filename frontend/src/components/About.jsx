@@ -2,11 +2,12 @@ import React from 'react';
 
 const features = [
   
-  { text: 'Private Beachfront' },
-  { text: 'Fine Dining' },
-  { text: 'Infinity Pool' },
-  { text: 'Diving' },
-  { text: 'Eco Friendly' },
+  { text: 'Double AC Rooms' },
+  { text: 'Double Non-AC Rooms' },
+  { text: 'Private Cottages' },
+  { text: 'Large Outdoor Area' },
+  { text: 'Family Friendly Stay' },
+  { text: 'Comfortable Group Getaways' },
   
 ];
 
@@ -19,15 +20,16 @@ function About() {
 
         <div className="about-grid">
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/cf/5e/72/zostel-coorg-madikeri.jpg?w=700&h=-1&s=1"
+            src="/assests/contact.jpeg"
             alt="Resort view"
           />
 
           <div className="about-text">
             <p>
-              Nestled in the serene hills of Madikeri, our resort offers a peaceful escape into nature.
-               Surrounded by lush greenery and fresh mountain air, every stay is designed to help you relax and unwind. 
-               From cozy cottages to scenic views, we create moments that stay with you long after you leave.
+              Mantri Stay Gokarna is a peaceful getaway located on Gokarna Road near Hittalmakki, Hantalamakki,
+              Gokarna, Karnataka 581344. Designed for comfort and convenience, the property offers Double AC rooms,
+              Double Non-AC rooms, and cozy cottages to suit every kind of traveler. With a large outdoor area and a
+              calm natural setting, it is an ideal stay for families, couples, and groups looking to relax and recharge.
             </p>
            
 

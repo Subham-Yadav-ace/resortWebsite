@@ -1,10 +1,12 @@
 import React from 'react';
 
 const photos = [
-  { src: 'https://tse4.mm.bing.net/th/id/OIP.zI62UiTPur8mNPgytC3idAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3', label: 'Overwater Villa' },
-  { src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&q=80', label: 'Deluxe Room' },
-  { src: 'https://tse1.mm.bing.net/th/id/OIP.gKA34l6HK2aF3DShr1S42AHaGC?pid=ImgDet&w=474&h=386&rs=1&o=7&rm=3', label: 'Infinity Pool' },
-  { src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80', label: 'Dining Area' },
+  { src: '/assests/glimpse4.png', label: 'Glimpse 4' },
+  { src: '/assests/glimpse1.jpg', label: 'Glimpse 1' },
+  { src: '/assests/glimpse2.jpg', label: 'Glimpse 2' },
+  { src: '/assests/glimpse3.jpg', label: 'Glimpse 3' },
+  { src: '/assests/glimpse5.jpg', label: 'Glimpse 5' },
+  { src: '/assests/glimpse6.jpg', label: 'Glimpse 6' },
   
 ];
 

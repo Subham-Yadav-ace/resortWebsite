@@ -2,21 +2,26 @@ import React from 'react';
 
 const rooms = [
   {
-    name: 'Garden Villa',
-    img: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80',    
-  },
-  
-  {
-    name: 'Overwater Suite',
-    img: 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=600&q=80',
+    name: 'Cottage',
+    img: '/assests/cottage.jpg',
   },
   {
-    name: 'Family Bungalow', 
-    img: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&q=80',
+    name: 'Double Room AC',
+    img: '/assests/doubleAC.jpg',
+  },
+  {
+    name: 'Double Room Non-AC',
+    img: '/assests/doublenonAC.jpg',
+  },
+  {
+    name: 'Family Room Non-AC',
+    img: '/assests/glimpse1.jpg',
+  },
+  {
+    name: 'Family Room AC',
+    img: '/assests/familyAC.jpg',
   },
 ];
-
-const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 
 function Rooms() {
   return (
@@ -31,7 +36,7 @@ function Rooms() {
               <div className="room-body">
                 <h3>{r.name}</h3>
                 <div className="room-footer">
-                  <button className="btn-gold" onClick={() => scrollTo('contact')}>Book</button>
+                  <a className="btn-gold" href="tel:01169658991">Book</a>
                 </div>
               </div>
             </div>
